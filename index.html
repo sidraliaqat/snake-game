@@ -546,7 +546,7 @@
 
       function showStartPanel(){
         panel.innerHTML = `
-          <h2>✦ ready?</h2>
+          <h2>🌸 ready?</h2>
           <p>Guide the snake, eat the berries, and don't cross your own path. The edges wrap around.</p>
           <button class="btn-primary" data-action="start">Start game</button>
         `;
@@ -563,7 +563,7 @@
       function showGameOverPanel(newBest){
         panel.innerHTML = `
           <h2 class="danger">💔 broken</h2>
-          <p>Score: <strong>${score}</strong> ${newBest ? '✦ new best!' : ''}</p>
+          <p>Score: <strong>${score}</strong> ${newBest ? '🌸 new best!' : ''}</p>
           <p class="hint-small">best: ${highScore}</p>
           <button class="btn-primary" data-action="start">Play again</button>
         `;
